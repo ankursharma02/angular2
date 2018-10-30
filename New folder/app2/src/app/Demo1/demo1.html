@@ -1,0 +1,9 @@
+<h2>Student details </h2>
+<div><span>id=</span>{{id}}</div>
+<div><span>name=</span>{{name}}</div>
+<h3>List of students </h3>
+<ul>
+    <li *ngFor="let a of arr " >{{a.id}}<span>  {{a.name|uppercase}}</span> </li>
+
+
+</ul>
